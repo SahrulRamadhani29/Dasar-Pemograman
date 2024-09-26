@@ -1,4 +1,3 @@
-package Praktikum_05;
 import java.util.Scanner;
 
 public class pemilihanbilternaryoperator {
