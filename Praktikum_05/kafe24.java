@@ -48,7 +48,7 @@ public class kafe24 {
         double nominalBayar = totalHarga - (diskon * totalHarga);
         
         System.out.println("Item Pembelian: " + jumlah + ", " + menu + " dengan ukuran cup "+ ukuranCup );
-        System.out.println("Nominal Bayar: " + nominalBayar );
+        System.out.println("Nominal Bayar: "+ nominalBayar );
 
     }
 }
