@@ -47,7 +47,7 @@ public class kafe24 {
         double diskon = keanggotaan ? 0.1 : 0;
         double nominalBayar = totalHarga - (diskon * totalHarga);
         
-        System.out.println("Item Pembelian:" + jumlah + " " + menu + "dengan ukuran cup"+ ukuranCup );
+        System.out.println("Item Pembelian: " + jumlah + ", " + menu + " dengan ukuran cup "+ ukuranCup );
         System.out.println("Nominal Bayar: " + nominalBayar );
 
     }
