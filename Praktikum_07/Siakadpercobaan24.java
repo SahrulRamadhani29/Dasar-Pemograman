@@ -6,9 +6,6 @@ Scanner sc = new Scanner (System.in);
 int nilai, jml, i=0;
 System.out.print("Masukan jumlah Mahasiswa: ");
 jml = sc.nextInt();
-while (i<jml){
-    i++;
-}
 while (i<jml) {
     System.out.print("Masukan nilai mahasiswa ke-" + (i+1) + ": ");
     nilai = sc.nextInt();
