@@ -1,5 +1,3 @@
-package Praktikum_07;
-
 import java.util.Scanner;
 
 public class SiAkadFor24 {
