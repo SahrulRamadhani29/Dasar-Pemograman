@@ -12,6 +12,7 @@ while (i<jml) {
     
     if (nilai < 0 || nilai > 100) {
         System.out.println("Nilai tidak Valid. Masukan lagi nilai yang valid!");
+        continue;
     }
     if (nilai > 80 && nilai <= 100) {
         System.out.println("Nilai mahasiswa ke-" + (i+ 1 ) + "adalah A");
